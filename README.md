@@ -8,10 +8,18 @@ In the theory of probability and statistics the concepts of mean and mathematica
 
 Such statistical evaluations are applied in virtually all areas of science, where astronomy is no exception. The methods described in this project could be used to define the statistical properties of astronomical catalogs or experimentally derived data from an observational program. Of course, most of these formulas are usually implemented in the software that we use to analyze the data, but the aim of the current project is to show the possible implementations of these methods in Python using *lists*, *conditional blocks*, *iteration*, *reading and writing* a file, etc.
 
-## Descriptive Statistics
+## Prerequisites
 
-Writing a program that takes tabular data from a file and calculates the following statistical estimates:
+To be able to go through the examples in this project, you'll have to obtain these if you haven't got them:  
+* *Python 2.7*
+* the modules *NumPy*, *SciPy*, *Matplotlib*
+* *iPython*
 
-* Generaluzed mean
-* Variance
-* Covariance
+You can install the extra modules using your favourite method, but I recommend installing [Anaconda by Continuum Analytics](https://www.continuum.io/downloads) - it includes all these in a neat package, plus some more useful scientific tools.
+
+When the project is finished, you will be able to view/run it in a couple of different ways: by cloning the repository and running the main scripts, or by running iPython Notebook from the project folder
+
+    $ cd Python-Descriptive-Statistics
+    $ ipython notebook
+
+and then checking out the file `Descriptive Statistics.ipynb`.
