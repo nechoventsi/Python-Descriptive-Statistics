@@ -12,7 +12,7 @@ Such statistical evaluations are applied in virtually all areas of science, wher
 
 To be able to go through the examples in this project, you'll have to obtain these if you haven't got them:  
 * *Python 2.7*
-* the modules *NumPy*, *SciPy*, *Matplotlib*
+* the modules *NumPy*, *SciPy* and *Matplotlib*
 * *iPython*
 
 You can install the extra modules using your favourite method, but I recommend installing [Anaconda by Continuum Analytics](https://www.continuum.io/downloads) - it includes all these in a neat package, plus some more useful scientific tools.
