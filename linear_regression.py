@@ -1,7 +1,8 @@
 import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
-%matplotlib inline # iPython magic function for inline plotting
+# When using iPython Notebook, include:
+#%matplotlib inline # iPython magic function for inline plotting
 
 # NumPy module for unpacking data from a file:
 M, Merr, V = np.loadtxt("Data/velocity_luminosity.txt", usecols=(1, 2, 3), unpack=True, skiprows=1)
@@ -23,3 +24,6 @@ plt.plot(logV, predict_M, "k-")
 plt.errorbar(logV, M, yerr=Merr, fmt='o')
 plt.xlabel("log(V) [km/s]")
 plt.ylabel("$M_{B}$")
+
+# When not using iPython Notebook, include:
+plt.show()
