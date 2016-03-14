@@ -20,6 +20,7 @@ def residual(x):
     
     """ Calculate the residual (x_i - mean_x) """
     
+    mean_x = genMean(M, m)
     res = []
     
     for value in x:
@@ -33,6 +34,7 @@ def variance(x):
     
     """ Calculate the variance of x """
 
+    mean_x = genMean(M, m)
     S = 0
 
     for value in x:
